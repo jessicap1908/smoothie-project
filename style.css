@@ -1,0 +1,27 @@
+
+
+  /* xs and small */
+  .jumbotron h1 {
+      font-size: 30px;
+     color: lightblue
+     
+    }
+   .jumbotron h2 {
+      font-size: 20px;
+    }
+    
+
+/*medium & up*/
+
+@media only screen and (min-width: 992px) {
+   .jumbotron h1 {
+        font-size: 30px;
+    }
+   .jumbotron h2 {
+        font-size: 25px;
+       
+    }
+   
+}
+
+
