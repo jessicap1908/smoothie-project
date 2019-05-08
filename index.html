@@ -8,6 +8,7 @@
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,21 +19,29 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="nav.css">
   
+  
+  
+  
+  
+  <!--The src for the newest bootstrap-->
+  
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ <!--<script src="script.js"></script>-->
    <script>
     
     //style
     $(function(){
          $('h1').hover(function(){
-       $(this).css('color', 'pink');
+       $(this).css('color', 'white');
         });
           $('h2').hover(function(){
        $(this).css('color', 'grey');
         });
           $('h3').hover(function(){
-       $(this).css('color', 'lightpink');
+       $(this).css('color', 'white');
         });
          $('h4').hover(function(){
-       $(this).css('color', 'white');
+       $(this).css('color', 'grey');
         });
         
     });
@@ -49,13 +58,54 @@
     <h2 class="text-center">Energy boost, immune system, and weight loss smoothies</h2>
   </div>
 
- <div class="container">
+
+ 
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-center">
+                    <li><a href="#Immune">Immune System Smoothies</a></li>
+                    <li><a href="#Energy-Boost">Energy Boost Smoothies</a></li>
+                    <li><a href="#Weight-Loss">Weight Loss Smoothies</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+ <div class="container" id="Immune">
+  
+
+<div class="container">
+ <div class="row">
     <h3> Immune System Smoothies</h3>
   </div>
+</div>
+</div>
 
 
 
 
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Spa Smoothie</h4>
@@ -96,12 +146,12 @@
       </div>
     </div>
   </div>
+</div>
 
 
 
 
-
-
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Coconut Turmeric Cream</h4>
@@ -139,11 +189,11 @@
       </div>
     </div>
   </div>
+</div>
 
 
 
-
-
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Acai Green</h4>
@@ -183,21 +233,21 @@
       </div>
     </div>
   </div>
+</div>
 
 
 
 
 
 
-
-  <div class="container">
+  <div class="container" id="Energy-Boost">
     <h3> Energy Boost Smoothies</h3>
   </div>
 
 
 
 
-
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Berry Boost Smoothie</h4>
@@ -238,6 +288,7 @@
       </div>
     </div>
   </div>
+</div>
 
 
 
@@ -248,8 +299,7 @@
 
 
 
-
-
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Morning Sunshine Smoothie</h4>
@@ -287,11 +337,11 @@
       </div>
     </div>
   </div>
+</div>
 
 
 
-
-
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Paradise Smoothie</h4>
@@ -331,6 +381,7 @@
       </div>
     </div>
   </div>
+</div>
 
 
 
@@ -345,8 +396,7 @@
 
 
 
-
-
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Mango Lassi</h4>
@@ -384,17 +434,20 @@
       </div>
     </div>
   </div>
-
+</div>
 
 
 
 
  
 
-  <div class="container">
+  <div class="container" id="Weight-Loss">
     <h3> Weight Loss</h3>
   </div>
 
+
+
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Kale and Apple Green Detox Smoothie</h4>
@@ -434,10 +487,10 @@
       </div>
     </div>
   </div>
+</div>
 
 
-
-
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Avocado Detox Smoothie</h4>
@@ -474,10 +527,10 @@
       </div>
     </div>
   </div>
+</div>
 
 
-
-
+ <div class="container" id="boxes">
   <div class="row">
     <div class="col-md-6">
       <h4>Kale Strawberry Banana Detox Smoothie</h4>
@@ -515,6 +568,8 @@
       </div>
     </div>
   </div>
+  </div>
+  
 </body>
 
 </html>

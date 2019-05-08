@@ -1,0 +1,45 @@
+/*  .navbar-dark .navbar-toggler{*/
+        /*background-color: #FFB6C1;*/
+       /*background-color: #B4CEE7;	*/
+/*       background-color: lightpink;*/
+/*        border-color: white;*/
+        
+    
+/*} */
+
+/*.navbar-dark .navbar-collapse{*/
+    /*background-color: #96DEF3;*/
+/*     background-color: lightblue;*/
+/*    color: black;*/
+/*}*/
+
+
+/*.navbar-dark .navbar-nav .nav-link {*/
+/*background-color: #96DEF3;*/
+/*background-color: lightblue; */
+/*  color: black;*/
+/*}*/
+
+.navbar {
+  overflow: hidden;
+  /*background-color: lightpink;*/
+  background-color:transparent;
+  position: fixed;
+ 
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color:  white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: white;
+  color: white;
+}     

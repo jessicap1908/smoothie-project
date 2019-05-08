@@ -3,18 +3,22 @@
       height: 100%;
       background-color: lightblue;
     }
-    
+    .jumbotron{
+        background-color: lightpink;
+    }
 
   /* xs and small */
   .jumbotron h1 {
       font-size: 35px;
-    
+    font-weight:Bold;
     }
    .jumbotron h2 {
       font-size: 19px;
+      font-weight:Bold;
     }
    .container h3{
         font-size: 19px;
+        font-weight:Bold;
     }
 
 /*medium & up*/
@@ -37,10 +41,13 @@
            .row .row {
             margin-top: 10px;
             margin-bottom: 10px;
-             border: 1px solid #ddd;
+            /* border: 1px solid #ddd;*/
+            /*border: 1px solid rgba(86, 61, 124, .2);*/
+        }
+        #boxes{
+              border: 1px solid #ddd;
             border: 1px solid rgba(86, 61, 124, .2);
         }
-        
         [class*="col-md-6"] {
              
             padding-top: 10px;
@@ -50,8 +57,12 @@
             background-color: lightblue;
            
         }
-        
-        
-        
-        
-        
+        .container #Immune{
+             margin-top: 10px;
+            margin-bottom: 10px;
+        }
+      
+      
+      
+      
+      
