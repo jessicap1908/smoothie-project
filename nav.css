@@ -22,8 +22,8 @@
 
 .navbar {
   overflow: hidden;
-  /*background-color: lightpink;*/
-  background-color:transparent;
+  background-color: lightpink;
+  /*background-color:transparent;*/
   position: fixed;
  
   width: 100%;
