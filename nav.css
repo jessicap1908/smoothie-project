@@ -1,31 +1,11 @@
-/*  .navbar-dark .navbar-toggler{*/
-        /*background-color: #FFB6C1;*/
-       /*background-color: #B4CEE7;	*/
-/*       background-color: lightpink;*/
-/*        border-color: white;*/
-        
-    
-/*} */
 
-/*.navbar-dark .navbar-collapse{*/
-    /*background-color: #96DEF3;*/
-/*     background-color: lightblue;*/
-/*    color: black;*/
-/*}*/
-
-
-/*.navbar-dark .navbar-nav .nav-link {*/
-/*background-color: #96DEF3;*/
-/*background-color: lightblue; */
-/*  color: black;*/
-/*}*/
 
 .navbar {
   overflow: hidden;
-  background-color: lightpink;
+  background-color: #CCCCFF;
   /*background-color:transparent;*/
   position: fixed;
- 
+ text-align: center;
   width: 100%;
 }
 
